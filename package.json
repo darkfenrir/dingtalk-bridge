@@ -1,0 +1,24 @@
+{
+  "name": "dingtalk-bridge",
+  "version": "1.0.0",
+  "description": "钉钉机器人桥接 OpenClaw 中间件",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "dingtalk",
+    "openclaw",
+    "bot",
+    "bridge"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0"
+  }
+}
